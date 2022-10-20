@@ -1,0 +1,91 @@
+body{
+    color: #000;
+}
+
+.inconsolata{
+    font-family: 'Inconsolata', monospace;
+}
+
+.header p{
+    margin: 0;
+}
+
+.navbar-brand > img{
+    width: 100px;
+}
+
+.active{
+    text-decoration: underline wavy #FF584F;
+    text-underline-offset: 8px;
+}
+
+.mybgprymary{
+    background-color: #FF584F;
+}
+
+.mybgsecondary{
+    background: #0b0b0b;
+}
+
+.mybgdarkness{
+    background: rgb(28, 28, 28);
+}
+
+.mybglight{
+    background: rgb(240, 240, 240);
+}
+
+.roboto{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.vh-90{
+    height: 90vh;
+}
+
+.certificados .card{
+    border-color: white;
+}
+
+.articulos{
+    border-color: black;
+    color: black;
+}
+
+.card-body > .btn {
+    background-color: #0b0b0b;
+    border-color: white;
+}
+
+.card-body > .btn:hover {
+    background-color: #FF584F;
+    border-color: white;
+}
+
+.repos p a{
+    background-color: #ec362c88;
+    color: #0b0b0b;
+    text-decoration: none;
+}
+
+.miruta ol{
+    list-style-type:none;
+}
+
+.repos ol{
+    list-style-type:square;
+}
+
+.contacto .row h4{
+    font-weight: 400;
+}
+
+.socialmedia{
+    list-style: none;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    color: #1b1b1b;
+}
