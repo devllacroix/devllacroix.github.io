@@ -1,133 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Devllacroix | Ayrton Bolanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Devllacroix | Inicio</title>
 </head>
-<body class="container">
-    <!-- <div class="row justify-content-center mt-5">
-        <div class="col-5 d-flex justify-content-center">
-            <a href="#">/Certificados</a>
-            <a href="#">/Cursos</a>
-            <a href="#">/Tecnologías</a>
-        </div>
-    </div> -->
-    <div class="row justify-content-center mt-5">
-        <div class="col-12 text-center">
-            <p>Universidad Veracruzana</p>
-        </div>
-    </div>
-    <hr>
-    <div class="row justify-content-center mt-5 p-2">
-        <div class="col-12 rounded text-light align-items-center text-center bg-primary p-2">
-            <h1 class="p-0 m-0">Ayrton Bolaños</h1>
-            <p class="p-0 m-0">(@devllacroix)</p>
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-12 text-center">
-            <h2>Cursos Terminados</h2>
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-12 col-lg-4 mt-3 mt-lg-0">
-            <div class="card" style="width: auto">
-                <div class="card-body">
-                    <h5 class="card-title">Python Introduction</h5>
-                    <hr>
-                    <p class="card-text">Aprendiendo en un curso introductorio el lenguaje más importante para la ciencia de datos.</p>
-                    <div class="plataforma">
-                        <label>Plataforma: </label>
-                        <label>Kaggle</label>
-                    </div>
-                    <div class="estado">
-                        <label>Estado:</label>
-                        <label class="bg-success text-dark">Terminado</label>
-                    </div>
-                    <a href="https://www.kaggle.com/learn/python"><button class="btn btn-primary mt-4">Go There!</button></a>
+
+<body class="bg-light">
+
+    <div class="container">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light inconsolata">
+            <div class="container">
+                <a href="" class="navbar-brand">
+                    <img src="./img/Recurso 1.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" aria-current="page">Certificados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" aria-current="page">Repositorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" aria-current="page">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="col-12 col-lg-4 mt-3 mt-lg-0">
-            <div class="card" style="width: auto">
-                <div class="card-body">
-                    <h5 class="card-title">Diseño UI</h5>
-                    <hr>
-                    <p class="card-text">Aprende las técnicas y buenas prácticas para crear diseños de interfaces limpios, funcionales e impactantes.</p>
-                    <div class="plataforma">
-                        <label>Plataforma: </label>
-                        <label>EDTeam</label>
-                    </div>
-                    <div class="estado">
-                        <label>Estado:</label>
-                        <label class="bg-success text-dark">Terminado</label>
-                    </div>
-                    <a href="https://app.ed.team/u/ayrtonbolwal/curso/ui-design"><button class="btn btn-primary mt-4">Go There!</button></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mt-3 mt-lg-0">
-            <div class="card" style="width: auto">
-                <div class="card-body">
-                    <h5 class="card-title">Universidad JS</h5>
-                    <hr>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <div class="plataforma">
-                        <label>Plataforma: </label>
-                        <label>Udemy</label>
-                    </div>
-                    <div class="estado">
-                        <label>Estado:</label>
-                        <label class="bg-warning text-dark">En proceso</label>
-                    </div>
-                    <button class="btn btn-primary mt-4">Go There!</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mt-3">
-            <div class="card" style="width: auto">
-                <div class="card-body">
-                    <h5 class="card-title">Universidad JS</h5>
-                    <hr>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <div class="plataforma">
-                        <label>Plataforma: </label>
-                        <label>Udemy</label>
-                    </div>
-                    <div class="estado">
-                        <label>Estado:</label>
-                        <label class="bg-warning text-dark">En proceso</label>
-                    </div>
-                    <a href="https://www.udemy.com/course/universidad-javascript-angular-react-vue-typescript-html-css-bootstrap/"><button class="btn btn-primary mt-4">Go There!</button></a>
-                </div>
-            </div>
-        </div>
+        </nav>
     </div>
-    <div class="row mt-5">
-        <div class="col-12 text-center">
-            <h2>Repositorios</h2>
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-12 col-lg-4 mt-3 mt-lg-0">
-            <div class="card" style="width: auto">
-                <div class="card-body">
-                    <h5 class="card-title">python-course</h5>
-                    <hr>
-                    <p class="card-text">In this repository, I have the practices of the course about Basic Python. It's a Kaggle's course.</p>
-                    <div class="estado"><label>Estado:</label><label class="bg-success text-dark">Terminado</label></div>
-                    <a href="https://github.com/devllacroix/python-course"><button class="btn btn-primary mt-4">Go There!</button></a>
+
+
+
+
+    <!--Portada-->
+    <section class="header align-items-center">
+        <section class="row vh-100 justify-content-center align-items-center m-0 px-5 px-xs-2 px-md-0">
+            <section class="col-sm-7 col-xxl-5 mybgsecondary p-0">
+                <div class="col-12 text-start bg-light m-0 ms-1">
+                    <section class="ps-4">
+                        <h1 class="robotom-0">Ayrton Bolanos</h1>
+                        <p class="mb-4">(@devllacroix)</p>
+                        <span class="inconsolata">
+                            <p>&#127891; Universidad Veracruzana</p>
+                            <p>&#128126; Ingeniería de Software</p>
+                            <p>&#128187; Front-End Developer Student</p>
+                            <p>&#129504; HTML, CSS, JavaScript, AngularJS</p>
+                        </span>
+                    </section>
+                </div>  
+            </section>
+            
+        </section>
+    </section>
+
+
+
+    <!--Certificados-->
+    <section class="certificados mybgsecondary">
+        <div class="container p-5 text-light">
+            <div class="p-0 p-xs-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 text-start">
+                        <h2 class="display-6">Certificados</h2>
+                        <hr>
+                    </div>
                 </div>
+                <section class="justify-content-center align-items-center mt-2">
+                    <div class="row justify-content-center align-items-center d-flex flex-wrap">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 mt-0 mt-md-3">
+                            <div class="card mybgsecondary">
+                                <div class="card-body">
+                                    <h5 class="card-title inconsolata">Diseño UI</h5>
+                                    <hr>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ir allá</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 mt-3">
+                            <div class="card mybgsecondary">
+                                <div class="card-body">
+                                    <h5 class="card-title inconsolata">Intro Python</h5>
+                                    <hr>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ir allá</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 mt-3">
+                            <div class="card mybgsecondary">
+                                <div class="card-body">
+                                    <h5 class="card-title inconsolata">Universidad JS</h5>
+                                    <hr>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ir allá</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="co-12 col-md-6 col-lg-6 col-xl-3 mt-3">
+                            <div class="card mybgsecondary"">
+                                <div class="card-body">
+                                    <h5 class="card-title inconsolata">Pandas</h5>
+                                    <hr>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ir allá</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!--Repositorios-->
+    <section class="proposito container p-5">
+        <div class="row">
+            <div class="miruta col-12 col-md-6 p-lg-5">
+                <h2 class="display-6">Mi propósito</h2>
+                <hr>
+                <p>Convertirme en un Front-End Developer Professional y FullStack Designer, aplicando la calidad a cada uno de mis productos y haciendo efectivos cada uno de mis servicios.</p>
+                <ol class="mt-2">
+                    <li>&#9989; HTML</li>
+                    <li>&#9989; CSS</li>
+                    <li>&#9989; Bootstrap</li>
+                    <li>&#128219; JS</li>
+                    <li>&#128219; TS</li>
+                    <li>&#128219; AngularJS</li>
+                </ol>
+                </span>
+            </div>
+            <div class="repos col-12 col-md-6 p-lg-5 mt-5 mt-md-0">
+                <h2 class="display-6">Mi Repo </h2>
+                <hr>
+                <p>Todos mis proyectos académicos y profesionales encuéntralos en un solo lugar, acompáñame a <a href="https://github.com/devllacroix">la casa del gato</a> y podrás ver todos mis proyectos de uso público, entre devs nos ayudamos.</p>
+                <ol>
+                    <li><a href="https://github.com/devllacroix/python-course">Python Course Activities</a></li>
+                    <li><a href="https://github.com/devllacroix/devllacroix">Code of my Page</a></li>
+                    <li><a href="https://github.com/devllacroix/devllacroix">Panda Projects</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!--Artículos-->
+    <section class="articulos mybglight">
+        <div class="container p-5">
+            <div class="p-0 p-xs-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 text-start">
+                        <h2 class="display-6">Artículos Notion</h2>
+                        <hr>
+                    </div>
+                </div>
+                <section class="justify-content-center align-items-center mt-3">
+                    <div class="row justify-content-center align-items-center d-flex flex-wrap">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mt-0 mt-md-3">
+                            <div class="card mybglight shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <h5 class="card-title inconsolata">Diseño UI</h5>
+                                    <hr>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ir allá</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mt-3">
+                            <div class="card mybglight shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <h5 class="card-title inconsolata">Intro Python</h5>
+                                    <hr>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ir allá</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mt-3">
+                            <div class="card mybglight shadow p-3 mb-5">
+                                <div class="card-body">
+                                    <h5 class="card-title inconsolata">Universidad JS</h5>
+                                    <hr>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ir allá</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!--Redes Sociales-->
+    <section class="contacto container p-5">
+        <div class="row p-0">
+            <div class="col-12 col-lg-3 border p-3 mt-4 mt-lg-0 order-2 order-md-1">
+                <h4 class="fs-6">Social Media</h4>
+                <hr>
+                <div class="socialmedia px-3 d-flex flex-wrap flex-lg-column justify-content-center">
+                    <p class="m-1 p-lg-0 m-0 btn border rounded-pill d-flex"><a href="" class="ps-lg-3 py-1">&#128526; Facebook</a></p>
+                    <p class="m-1 p-lg-0 m-0 btn border rounded-pill d-flex"><a href="" class="ps-lg-3 py-1">&#128250; YouTube</a></p>
+                    <p class="m-1 p-lg-0 m-0 btn border rounded-pill d-flex"><a href="" class="ps-lg-3 py-1">&#128188; LinkedIn</a></p>
+                    <p class="m-1 p-lg-0 m-0 btn border rounded-pill d-flex"><a href="" class="ps-lg-3 py-1">&#128247; Instagram</a></p>
+                    <p class="m-1 p-lg-0 m-0 btn border rounded-pill d-flex"><a href="" class="ps-lg-3 py-1">&#128168; Twitter</a></p>
+                    <p class="m-1 p-lg-0 m-0 btn border rounded-pill d-flex"><a href="" class="ps-lg-3 py-1">&#128570; Github</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-9 mt-4 mt-lg-0 order-1 order-md-2">
+                <section class="row">
+                    <div class="col-12 col-md-6 p-0">
+                        <img src="/img/FotodePerfil.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 mybgsecondary text-light d-flex align-items-center">
+                        <section class="cotenido p-4 text-center text-md-start">
+                            <h4>Hola Mundo!</h4>
+                            <hr>
+                            <p style="font-size: 14px;">Mi nombre es Ayrton Bolanos, para servirle a usted. Estudiante de Ingeniería de Software en la Universidad Veracruzana y orgullosamente mexicano. Abierto a una partida de baloncesto, futbol o LoL. Me gustan las tardes frías y quedarme en mi casa encerrado haciendo este tipo de sitios web. </p>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
     <div class="row mt-5">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
@@ -152,5 +271,10 @@
             </ul>
         </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
