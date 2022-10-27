@@ -1,14 +1,42 @@
+.mybgprymary{
+    background-color: #FF584F;
+}
+
+.mybgsecondary{
+    background: #0b0b0b;
+}
+
+.mybgdarkness{
+    background: rgb(28, 28, 28);
+}
+
+.mybglight{
+    background: rgb(240, 240, 240);
+}
+
+.roboto{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    width: 700px;
+}
+
 body{
     color: #000;
 }
 
 .inconsolata{
     font-family: 'Inconsolata', monospace;
-}
-
-.mibgGradient{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 .header p{
@@ -88,7 +116,7 @@ body{
 
 .socialmedia{
     list-style: none;
-}
+}   
 
 .socialmedia a{
     text-decoration: none;
